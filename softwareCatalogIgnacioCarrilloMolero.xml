@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Ignacio Carrillo Molero
+Curso: ASIR 1
+Fecha: 27/03/2025
+Ejercicio: XML Espacios de Nombre
+-->
+
+<catalogo>
+    <os:software>
+        <os:nombre-so>Windows 10</os:nombre-so>
+        <os:version>Windows 10</os:version>
+        <os:desarrollador>Windows 10</os:desarrollador>
+        <os:url>Windows 10</os:url>
+
+    </os:software>
+    <office:software>
+
+    </office:software>
+
+
+</catalogo>
