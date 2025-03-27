@@ -6,16 +6,48 @@ Fecha: 27/03/2025
 Ejercicio: XML Espacios de Nombre
 -->
 
-<catalogo>
-    <os:software>
+<catalogo> <!--Esta va a ser la declaración raíz que va a almacenar todo, como se dicta en el ejercicio.-->
+
+    <os:software> <!--Y esta declaración va a almacenar los distintos sistemas operativos(Windows, kali linux, etc...)-->
         <os:nombre-so>Windows 10</os:nombre-so>
-        <os:version>Windows 10</os:version>
-        <os:desarrollador>Windows 10</os:desarrollador>
-        <os:url>Windows 10</os:url>
-
+        <os:version>22H2</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/es-es/windows/</os:url> <!--no encontré una url que sea de windows 10 como tal que hable acerca de ella :(-->
     </os:software>
-    <office:software>
 
+    <os:software>
+        <os:nombre-so>Windows 11</os:nombre-so>
+        <os:version>24H2</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/es-es/software-download/windows11</os:url>
+    </os:software>
+
+    <os:software>
+        <os:nombre-so>Kali Linux</os:nombre-so>
+        <os:version>2024.1</os:version>
+        <os:desarrollador>Offensive Security</os:desarrollador>
+        <os:url>https://www.kali.org/</os:url>
+    </os:software>
+
+    <office:software>
+        <office:nombre-so>Photoshop</office:nombre-so>
+        <office:version>26.4.1.</office:version>
+        <office:desarrollador>Adobe Systems</office:desarrollador>
+        <office:url>https://www.adobe.com/es/products/photoshop.html</office:url>
+    </office:software>
+
+    <office:software>
+        <office:nombre-so>Microsoft Word</office:nombre-so>
+        <office:version>2021</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/es-es/microsoft-365/word</office:url>
+    </office:software>
+
+    <office:software>
+        <office:nombre-so>Microsoft Excel</office:nombre-so>
+        <office:version>2024.1</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/es-es/microsoft-365/excel</office:url>
     </office:software>
 
 
