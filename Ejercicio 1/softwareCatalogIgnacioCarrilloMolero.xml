@@ -6,7 +6,7 @@ Fecha: 27/03/2025
 Ejercicio: XML Espacios de Nombre
 -->
 
-<catalogo xmlns:os="URI" xmlns:office="URI"> <!--Esta va a ser la declaración raíz que va a almacenar todo, como se dicta en el ejercicio.-->
+<catalogo xmlns:os="http://ej1/os" xmlns:office="http://ej1/office"> <!--Esta va a ser la declaración raíz que va a almacenar todo, como se dicta en el ejercicio.-->
 
     <os:software> <!--Y esta declaración va a almacenar los distintos sistemas operativos(Windows, kali linux, etc...)-->
         <os:nombre-so>Windows 10</os:nombre-so>
