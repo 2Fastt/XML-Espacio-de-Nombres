@@ -45,10 +45,9 @@ Ejercicio: XML Espacios de Nombre
 
     <office:software>
         <office:nombre-so>Microsoft Excel</office:nombre-so>
-        <office:version>2024.1</office:version>
+        <office:version>2024</office:version>
         <office:desarrollador>Microsoft</office:desarrollador>
         <office:url>https://www.microsoft.com/es-es/microsoft-365/excel</office:url>
     </office:software>
-
-
+    
 </catalogo>
